@@ -35,7 +35,7 @@
 .nav-conteiner {
   width: 825px;
   height: 65px;
-  gap: 40px;
+  /* gap: 40px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@
   line-height: 22px;
   color: black;
   align-items: center;
-  /* margin-left: 40px; */
+  margin-left: 40px;
 }
 .get-consulting {
   width: 184px;
@@ -114,7 +114,7 @@
   width: 386px;
   height: 386px;
   background-color: #f4f4f4;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 h2 {
   font-family: "Poppins", sans-serif;
@@ -237,7 +237,7 @@ h2 {
 }
 .imag-persons {
   display: flex;
-  gap: 40px;
+  /* gap: 40px; */
   margin-left: 10px;
   margin-top: 41px;
 }
@@ -245,7 +245,7 @@ h2 {
   width: 386px;
   height: 532px;
   margin-bottom: 131px;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .natasha {
   background-image: url(../image/1.png);
