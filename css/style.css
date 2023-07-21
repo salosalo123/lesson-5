@@ -3,17 +3,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body{
+  width: 1920px;
+  margin-top: 30px;
+}
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+
 .header-main-div {
-  width: 1220px;
-  height: 65px;
+  /* width: 100%; */
+  height: 200px; 
   margin: 53px 350px;
   gap: 195px;
   justify-content: center;
   display: flex;
+  position: fixed;
+  /* z-index: 1000;
+  top:0px;
+  left:0px; */
+  
+  
 }
 .logo-conteiner {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logo {
   width: 28px;
@@ -51,6 +75,7 @@
   /* margin-left: 40px; */
 }
 .get-consulting {
+  
   width: 184px;
   height: 65px;
   gap: 10px;
@@ -69,7 +94,7 @@
 .first-conteiner {
   width: 1220px;
   height: 510px;
-  margin-top: 136px;
+  margin-top: 200px;
   margin-left: 350px;
   gap: 41px;
 }
